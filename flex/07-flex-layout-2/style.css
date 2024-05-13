@@ -36,12 +36,17 @@ main {
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
-  padding: 16px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 24px;
 }
 
 a {
@@ -51,17 +56,17 @@ a {
 }
 
 .cards {
-  padding: 32px;
+  padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 32px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
-  max-width: 30%;
+  max-width: 27%;
   padding: 16px;
   font-size: 24px;
 }
